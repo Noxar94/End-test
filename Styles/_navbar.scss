@@ -1,0 +1,118 @@
+header{
+  width: 100%;
+  height: 100%;
+ }
+ 
+ .header-container {
+  width: 100%;
+  height: 50vh;
+ 
+  background-image: url(/img/Background-img1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+   
+ }
+ 
+ .header-content {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+   h1 {
+     font-family: 'Josefin Sans';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 48px;
+     line-height: 26px;
+     letter-spacing: 4.8px;
+     text-transform: uppercase;
+ 
+     color: #FFFFFF;
+     margin-bottom: 11px;
+ 
+   }
+ 
+   h3{
+     font-family: 'Josefin Sans';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 22px;
+     line-height: 26px;
+     letter-spacing: 6.82px;
+ 
+     color: #FFFFFF;
+     margin-bottom: 48px;
+ 
+   }
+   
+ }
+ 
+ 
+ .search-box {
+ display:flex;
+ 
+ 
+   input{
+   width: 500px;
+   height: 60px;
+   border: none;
+   text-align: center;
+ 
+   font-family: 'Josefin Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 26px;
+   letter-spacing: 2.8px;
+ 
+   color: #999999;
+   }
+ 
+   button {
+   width: 150px;
+   height: 60px;
+ 
+   font-family: 'Aleo';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 26px;
+ 
+   letter-spacing: 1.4px;
+   text-transform: uppercase;
+ 
+   background-color: #5474FD;
+   color: white;
+   border: 1px solid white;
+   }
+ 
+   button:hover{
+     color: rgb(255, 255, 2550,0.5);
+   }
+   
+ }
+
+ .scrolltext {
+  
+  margin-top: 5%;
+
+  a {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-decoration: none;
+  
+    color: #FFFFFF;
+
+  }
+
+  a:hover {
+    opacity: 50%;
+    transition: 1s;
+  }
+}
