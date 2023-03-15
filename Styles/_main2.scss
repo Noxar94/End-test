@@ -42,3 +42,18 @@
   flex-direction: column;
   padding: 30px;
 }
+
+@media (max-width: 768px) {
+  .main2-content {
+    font-size: 28px;
+    text-align: center;
+    h3 {
+      font-size: 22px;
+    }
+  }
+  
+  .icon-container {
+    font-size: 32px;
+    padding: 10px;
+  }
+}
