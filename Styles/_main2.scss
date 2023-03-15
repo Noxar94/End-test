@@ -2,6 +2,11 @@
   min-width: 100%;
   height: 25vh;
   background-color: #333333;
+  background-image: url(/img/Shape\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 4vh;
+  background-size: 500px;
 }
 
 .main2-content {
@@ -20,7 +25,7 @@
     line-height: 26px;
 
     color: #E8E8E8;
-    margin-top: 38px;
+    margin-top: 28px;
   }
   
 }
@@ -49,12 +54,20 @@
     font-size: 28px;
     text-align: center;
     h3 {
-      font-size: 22px;
+      font-size: 12px;
     }
   }
   
   .icon-container {
     font-size: 32px;
     padding: 10px;
+  }
+
+  .section2 {
+    background-image: url(/img/Shape\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 8vh;
+    background-size: 200px;
   }
 }
