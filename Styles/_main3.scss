@@ -7,3 +7,75 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.main3content-left {
+  width: 30%;
+  margin-left: 20%;
+  padding: 20px;
+  background-color: rgb(35, 35, 35, 0.9);
+  h5 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+    margin-bottom: 23px;
+    margin-top: 49px;
+    
+    }
+
+  p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E8E8E8;
+    margin-bottom: 46px;
+  }
+
+  h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+
+    
+  }
+
+  button {
+    width: 50%;
+    height: 63px;
+    background: #5474FD;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    border: none;
+    color: #FFFFFF;
+  }
+  
+  button:hover {
+    color: rgb(255, 255, 2550,0.5);
+    cursor: pointer;
+  }
+
+  p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E8E8E8;
+    margin-bottom: 46px;
+  }
+}
