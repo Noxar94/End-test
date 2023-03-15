@@ -11,4 +11,25 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  h2 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+
+  p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    margin-top: 8px;
+  }
 }
