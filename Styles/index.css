@@ -1,3 +1,4 @@
+/*Content Header*/
 header {
   width: 100%;
   height: 100%;
@@ -102,6 +103,38 @@ header {
   opacity: 50%;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  height: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #5474FD;
+}
+.navbar ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.navbar a {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 20px;
 }
 
 * {
